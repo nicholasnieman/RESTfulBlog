@@ -7,7 +7,7 @@ var expressSanitizer = require("express-sanitizer"),
     
     
 // APP CONFIG
-mongoose.connect("mongodb://localhost/restful_blog_app");
+mongoose.connect("mongodb://njn17845:njn17845@ds139082.mlab.com:39082/restful-blog");
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));
